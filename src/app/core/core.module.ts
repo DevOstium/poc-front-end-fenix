@@ -11,18 +11,18 @@ import { MenuController } from './menu/menu.controller';
 @NgModule({
     declarations: [
         HeaderController,
-        MenuController,
-        FooterController
+        FooterController,
+        MenuController
     ],
     exports: [
         HeaderController,
-        MenuController,
-        FooterController
+        FooterController,
+        MenuController
     ],
     imports: [
         CommonModule,
         RouterModule,
-        HttpClientModule,
+        HttpClientModule
     ],
     providers: [
     ]

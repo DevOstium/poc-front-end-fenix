@@ -8,6 +8,14 @@ import { Component } from '@angular/core';
 export class MenuController { 
 
 
+      
+    isShow = true;
+
+    method() {
+      // alert("chamei")
+        this.isShow = !this.isShow;
+    }
+
 }
 
     

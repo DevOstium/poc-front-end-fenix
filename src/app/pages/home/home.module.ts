@@ -18,6 +18,7 @@ import { HomeRoutingModule } from './home.routinig.module';
         ReactiveFormsModule,
         RouterModule,
         HomeRoutingModule
+        
     ],
     providers: [  ]
 })
