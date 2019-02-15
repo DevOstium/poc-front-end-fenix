@@ -9,9 +9,9 @@ export class MenuController {
 
 
       
-    isShow = true;
+    isShow = false;
 
-    method() {
+    toggle() {
       // alert("chamei")
         this.isShow = !this.isShow;
     }
