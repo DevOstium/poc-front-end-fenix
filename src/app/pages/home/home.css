@@ -5,10 +5,7 @@
     margin-left: 280px;
     margin-top: 70px;
 }
-@media (max-width: 1024px) {
-    .right-panel {
-      margin-left: 83px; }
-}
+
 .content {
     float: left;
     padding: 1.875em;
@@ -19,4 +16,12 @@
 h1,h2,h3,h4,h5,h6{
     font-weight:300;
     color: #25284b
+}
+@media (max-width: 1024px) {
+    .right-panel {
+      margin-left: 83px; }
+}
+@media (max-width: 575px) {
+    .right-panel {
+      margin-left: 0; }
 }

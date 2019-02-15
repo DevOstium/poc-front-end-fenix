@@ -9,7 +9,7 @@ export class MenuController {
 
 
       
-    isShow = false;
+    isShow = true;
 
     toggle() {
       // alert("chamei")
