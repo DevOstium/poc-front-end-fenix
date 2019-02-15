@@ -5,7 +5,10 @@
     margin-left: 280px;
     margin-top: 70px;
 }
-
+@media (max-width: 1024px) {
+    .right-panel {
+      margin-left: 83px; }
+}
 .content {
     float: left;
     padding: 1.875em;

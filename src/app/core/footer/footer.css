@@ -17,3 +17,8 @@ footer.site-footer {
     }
         footer.site-footer .footer-inner a {
             color: #6a7074; }
+
+@media (max-width: 1024px) {
+    footer.site-footer  {
+        width:90%; }
+}
